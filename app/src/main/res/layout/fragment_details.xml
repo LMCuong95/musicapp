@@ -4,15 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/anhth"
+
     tools:context="com.bkav.demo.music.DetailSongRuningActivity">
     <include
         layout="@layout/layout_head_song"
         />
 
-    <include
-        layout="@layout/layout_repeat"
-        />
+    <include layout="@layout/layout_background_detail"/>
+
     <include
         android:id="@+id/includebottom"
         layout="@layout/layout_bottom_go"
